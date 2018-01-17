@@ -75,8 +75,13 @@ WSGI_APPLICATION = 'MiniLion.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'CONN_MAX_AGE': 0,
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': 'localhost',
+        'PORT': '',
+        'NAME': 'web_minilion',
+        'USER': 'web_minilion',
+        'PASSWORD': 'web_minilion',
     }
 }
 
