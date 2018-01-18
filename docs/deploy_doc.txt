@@ -11,6 +11,8 @@ Step 1 - Deploy project :
 Step ２ - Configure Mysql:
     - Install mysql
             $ sudo apt-get install mysql-server
+    - Create db and user
+            $ ./scripts/deplay_mysql.sh PASSWORD_of_root_in_mysql
 
 Step ３ - Configure Nginx:
     - Install nginx
