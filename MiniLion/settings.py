@@ -70,10 +70,6 @@ TEMPLATES = [
     },
 ]
 
-# TEMPLATE_DIRS = (
-#     os.path.join(BASE_TEMPLATE_DIRS, 'app'),
-# )
-
 WSGI_APPLICATION = 'MiniLion.wsgi.application'
 
 
