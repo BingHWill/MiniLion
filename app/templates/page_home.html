@@ -1,7 +1,19 @@
-<!-- {% extends "base.html" %} -->
+{% extends "base.html" %} {% load staticfiles %}
 
-{% block title %}My Blog{% endblock %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/page_home.css' %}">
+{% endblock css %}
 
 {% block content %}
-  <h1>Will Blog</h1>
-{% endblock %}
+<div class="instruction">
+	<img src="/static/img/home_img1.png">
+	<img src="/static/img/home_img4.png">
+	<img src="/static/img/home_img3.png">
+	<img src="/static/img/home_img4.png">
+	<img src="/static/img/home_img5.png">
+</div>
+{% endblock content %}
+
+{% block js %}
+<script type="text/javascript" src="{% static 'js/page_home.js' %}"></script>
+{% endblock js %} 
