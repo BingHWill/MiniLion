@@ -3,19 +3,26 @@
 <html>
 
 <head>
-	<title>{% block title %}{% endblock %}</title>
-    <link href="{% static "css/base.css" %}" rel="stylesheet">
+	<title>{% block title %}店涨{% endblock %}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    {% block meta %}{% endblock meta %}
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "css/base.css" %}">
+    {% block css %}{% endblock css %}
 </head>
 
 <body>
-    <div class="shopplus">
-    	  <li><a href="">店涨</a></li>
+    <div class="root_header_bar">
+        {% include "include/header.html" %}
     </div>
 
-    <div class="mainpage">  
-        <li><a href="">首页</a></li>
-        <li><a href="">城市合伙人</a></li>
-    </div>
     {% block content %}{% endblock %}
+        
+    <div class="root_footer_bar">
+        {% include "include/footer.html" %}
+    </div>
+    
 </body>
 </html>

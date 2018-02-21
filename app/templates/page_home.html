@@ -1,8 +1,15 @@
 {% extends "base.html" %} {% load staticfiles %}
 
+{% block title %}店涨-首页{% endblock title %} 
+
+{% block meta %}
+<meta name="description" content="">
+<meta name="keywords" content="">
+{% endblock meta %}
+
 {% block css %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/page_home.css' %}">
-{% endblock css %}
+<link rel="stylesheet" type="text/css" href="{% static "css/page_home.css" %}">
+{% endblock css %} 
 
 {% block content %}
 <div class="instruction">
@@ -11,6 +18,7 @@
 	<img src="/static/img/home_img3.png">
 	<img src="/static/img/home_img4.png">
 	<img src="/static/img/home_img5.png">
+	
 </div>
 {% endblock content %}
 

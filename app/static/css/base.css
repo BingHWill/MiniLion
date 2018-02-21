@@ -1,31 +1,9 @@
-li {  
-    list-style-type: none;
-    float: left;
-}
-
-a {  
-    display: block;
-    width: 100px;
-    height: 50px;
-    font-family: Microsoft Yahei;  
-    line-height: 50px;
-    color: red;
-    text-align: center;
-    text-decoration: none;
-}
-
-a:hover {  
-    /*background-color: #2f6f4f;  */
-}
-
-.shopplus {
-    display: block;
-    font-size: 28px;
-    margin-left: 20%;
-}
-
-.mainpage {
-    display: block;
-    font-size: 15px;
-    margin-left: 60%;
+.root_footer_bar {
+    width: 100%;
+    display: inline-block;
+    margin: auto 0;
+    overflow: hidden;
+    padding: 20px 0 20px 0;
+    vertical-align: middle;
+    background-color: #555555;
 }

@@ -1,0 +1,11 @@
+.ins_banner {
+	position: relative;
+}
+
+.apply_now img {
+	position: absolute;
+	width: 160px;
+	height: 40px;
+	left: 24%;
+	top:52%;
+}
