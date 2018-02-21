@@ -3,3 +3,6 @@ from .models import Applicant
 
 def page_home(request):
 	return render(request, 'templates/page_home.html')
+
+def page_partner(request):
+	return render(request, 'templates/page_partner.html')
