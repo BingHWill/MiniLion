@@ -7,16 +7,6 @@
 	margin: 0 auto;
 }
 
-.apply_button {
-	position: absolute;
-	width: 230px;
-	height: 56px;
-	left: 24%;
-	top:44%;
-	margin: 0 auto;
-	background-image: url(../img/apply_now.png);
-}
-
 .apply_now_b {
 	position: absolute;
 	width: 230px;

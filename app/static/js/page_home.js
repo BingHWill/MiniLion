@@ -1,9 +1,9 @@
 function apply_action() {
-	
+	window.location.href = '/partner#apply_view';
 }
 
 function phone_us_action() {
-
+	// TODO
 }
 
 function stick_up_action() {

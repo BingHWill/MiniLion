@@ -36,7 +36,13 @@
 	margin: 0 auto;
 }
 
-.apply_input {
+.name_input {
+	margin-top: 15px;
+	width: 240px;
+	height: 30px;
+}
+
+.phone_input {
 	margin-top: 15px;
 	width: 240px;
 	height: 30px;
@@ -50,27 +56,8 @@
 	margin: 0 auto;
 }
 
-.thumb_view_a {
-	background-color: white;
-	width: 210px;
-	height: 190px;
-	margin-left: 20px;
-}
-
-.thumb_image {
-	width: 160px;
-	height: 160px;
-	float: left;
-}
-
-.prev_button {
-	width: 80px;
-	height: 80px;
-	float: left;
-}
-
-.next_button {
-	width: 80px;
-	height: 80px;
-	float: left;
+.sub_view_title p {
+	color: black;
+	font-size: 20px;
+	padding-top: 40px;
 }
