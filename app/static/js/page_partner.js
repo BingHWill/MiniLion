@@ -14,7 +14,7 @@ function apply_action() {
 	};
 
 	$.ajax({
-		url: '/api/v1/apply/user',
+		url: '/api/v1/apply/user/',
         type: 'POST',
         dataType: 'json',
         cache: 'false',
@@ -29,12 +29,10 @@ function apply_action() {
                         alert("服务器异常！");
                         break;
                     case 1:
-                        input_name.val("");
-            			input_phone.val("");
                         alert("申请成功，请等待客服联系！");
                         break;
                     case 2:
-                        alert("申请失败，未知错误")
+                        alert("您已提交过申请，请等待客服联系")
                         break;
                     default:
                         break;
@@ -48,16 +46,6 @@ function apply_action() {
 	});
 };
 
-// $(".apply_phone input").on('keyup', function(event) {
-// 	var reg=/^[1-9]\d*$|^0$/;
-//     var input_number = this.value;
-//     var input_length = input_number.length;
+function record_apply_user() {
 
-//    	if (reg.test(input_number) == true) {
-//    		if (input_length >= 11) {
-// 	        this.value = input_number.substr(0, 11);
-// 	    }
-//    	} else {
-//    		this.value = input_number.substr(0, input_length-1)
-//    	};
-// });
+}
