@@ -14,25 +14,25 @@
 {% block content %}
 <div class="home_views">
 	<div class="home_view_a">
-		<img src="/static/img/home_image1.png">
-		<img src="/static/img/apply_now.png" class="apply_now_a" onclick="apply_action()">
+		<img src="{% static "img/home_image1.png" %}">
+		<img src="{% static "img/apply_now.png" %}" class="apply_now_a" onclick="apply_action()">
 	</div>
-	
-	<img src="/static/img/home_image2.png">
-	<img src="/static/img/home_image3.png">
-	<img src="/static/img/home_image4.png">
+
+	<img src="{% static "img/home_image2.png" %}">
+	<img src="{% static "img/home_image3.png" %}">
+	<img src="{% static "img/home_image4.png" %}">
 
 	<div class="home_view_b">
-		<img src="/static/img/home_image5.png">
-		<img src="/static/img/apply_now.png" class="apply_now_b" onclick="apply_action()">
+		<img src="{% static "img/home_image5.png" %}">
+		<img src="{% static "img/apply_now.png" %}" class="apply_now_b" onclick="apply_action()">
 	</div>
 
 	<div class="float_phone_us">
-		<img src="/static/img/phone_us.png" onclick="phone_us_action()">
+		<img src="{% static "img/phone_us.png" %}" onclick="phone_us_action()">
 	</div>
 
 	<div class="float_stick_up">
-		<img src="/static/img/stick_up.png" onclick="stick_up_action()">
+		<img src="{% static "img/stick_up.png" %}" onclick="stick_up_action()">
 	</div>
 </div>
 {% endblock content %}
