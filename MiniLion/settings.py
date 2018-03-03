@@ -27,7 +27,7 @@ SECRET_KEY = '&74tze%96snftdc4**5h@w$y=32(ls2nw5h743aw-tw^_w=(7^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.dianzhangcx.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.mygululu.com']
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
+    'MiniLion',
 ]
 
 MIDDLEWARE = [
@@ -73,7 +74,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'MiniLion.wsgi.application'
 
 
-# Database
+# Databased
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
