@@ -7,7 +7,7 @@ LOCAL_PASSWORD="binghong"
 
 function deploy_mysql {
     echo "Wait......"
-   mysql -h${LOCAL_HOST}  -P${LOCAL_PORT}  -u${LOCAL_USER} -p${LOCAL_PASSWORD} -e "CREATE database IF NOT EXISTS web_minilion;"
+   mysql -h${LOCAL_HOST}  -P${LOCAL_PORT}  -u${LOCAL_USER} -p${LOCAL_PASSWORD} -e "CREATE database IF NOT EXISTS web_minilion CHARACTER SET utf8;"
    mysql -h${LOCAL_HOST}  -P${LOCAL_PORT}  -u${LOCAL_USER} -p${LOCAL_PASSWORD} -e "CREATE user web_minilion@localhost identified by 'web_minilion';"
    mysql -h${LOCAL_HOST}  -P${LOCAL_PORT}  -u${LOCAL_USER} -p${LOCAL_PASSWORD} -e "FLUSH PRIVILEGES;"
    mysql -h${LOCAL_HOST}  -P${LOCAL_PORT}  -u${LOCAL_USER} -p${LOCAL_PASSWORD} -e "GRANT ALL PRIVILEGES ON web_minilion.* TO 'web_minilion'@'localhost';"
