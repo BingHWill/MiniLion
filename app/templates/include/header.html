@@ -7,22 +7,21 @@ ul {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-li {  
+li {
+    float: left;  
     list-style-type: none;
-    float: left;
 }
 
 li a:hover {
-    background-color: rgba(0, 0, 0, 0.2);
     color: white;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 a {  
     display: block;
-    width: 100px;
-    height: 50px;
-    font-family: Microsoft Yahei;  
-    line-height: 50px;
+    width: 2rem;
+    height: 1rem;
+    line-height: 1rem;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -35,47 +34,19 @@ a {
 
 .main_page {
     display: block;
-    font-size: 15px;
+    font-size: 0.25rem;
     margin-left: 60%;
 }
 
 li img {
-    width: 80px;
-    height: 38px;
-    padding-top: 5px;
+    width: 1.5rem;
+    height: 0.75rem;
+    padding-top: 0.1rem;
     margin-left: auto;
     margin-right: auto;
 }
-
-@media (max-width: 767px) {
-    li img {
-        width: 30px;
-        height: 18px;
-        padding-top: 5px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .main_page {
-        display: block;
-        font-size: 8px;
-        margin-right: -60%
-    }
-
-    a {  
-        display: block;
-        width: 50px;
-        height: 25px;
-        font-family: Microsoft Yahei;  
-        line-height: 25px;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        font-weight: 500;
-    }
-}
-
 </style>
+
 <ul>
     <div class="shop_plus">
         <li><a href="/"><img src="{% static "img/logo.png" %}"></a></li>

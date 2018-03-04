@@ -11,6 +11,7 @@ log
 *.pyc
 *.db
 *.orig
+*.out
 .tmp
 .python-version
 *.swp
