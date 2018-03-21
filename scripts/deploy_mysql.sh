@@ -3,7 +3,7 @@
 LOCAL_HOST="localhost"
 LOCAL_PORT="3306"
 LOCAL_USER="root"
-LOCAL_PASSWORD="binghong"
+LOCAL_PASSWORD="root"
 
 function deploy_mysql {
     echo "Wait......"
